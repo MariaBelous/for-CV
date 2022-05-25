@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Maria Belous | Contacts</title>
+        <link rel="shortcut icon" href="./src/assets/img/logo.PNG" tipe="img/png">
+        <link rel="stylesheet" href="./src/css/normalize.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=PT+Sans:wght@400;700&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <script defer src="./src/js/hamburger.js" type="application/javascript"></script>
+        <script defer src="./src/js/noscroll-nav.js" type="application/javascript"></script>
+        <script defer src="./src/js/dialog-box.js" type="application/javascript"></script>
+    </head>
+ 
+    <body class="body">
+        <div class="wrapper-contacts-page">
+
+            <header class="h-nav">
+
+                <div class="nav-content">
+                    <nav class="nav">
+                        <div class="hamburger-menu" id="hamburger-menu">
+                            <label class="menu-btn">
+                                <span></span>
+                            </label>
+    
+                            <ul class="nav-list">
+                                <li class="nav-s"><a class="nav-link nav-s-link" href="./index.html">Обо мне</a></li>
+                                <li class="nav-s"><a class="nav-link nav-s-link" href="#">Работы</a></li>
+                                <li class="nav-s"><a class="nav-link nav-s-link" href="#">Блог</a></li>
+                                <li class="nav-s"><a class="nav-link nav-s-link" href="./contacts.html">Контакты</a></li>
+                            </ul>                              
+                        </div>
+                    </nav>                   
+
+                
+                    <div class="h-nav-wrapper">
+                        <div class="nav-s-logo">
+                            <a class="nav-link " href="./index.html">
+                                <img class="nav-logo" src="./src/assets/img/logo.PNG" alt="Home">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="nav-s-sm">                   
+                        <a class="nav-link nav-sm-link" href="https://www.instagram.com/_be__marie_/?r=nametag" target="_blank">
+                            <img class="nav-instagram" src="./src/assets/img/logo-instagram.png" alt="instagram_logo">
+                        </a>
+    
+                        <a class="nav-link nav-sm-link" href="#">
+                            <img class="nav-telegram" src="./src/assets/img/logo-telegram.png">
+                        </a>
+                    </div>             
+
+                </div>
+
+                                     
+            </header>
+    
+    
+            <main class="content">
+
+                <div class="box-cont">
+                    <div class="cont-text">
+                        <h1>
+                            Обратная связь
+                        </h1>
+    
+                        <p>
+                            Вы можете со мной связаться любым удобным способом.
+                            <br>    
+                            С помощью формы обратной связи или в социальных сетях.
+                        </p>
+                    </div>
+
+                    <div class="box-form">
+                        <form action="javascript::void" id="form-cont" class="form-cont dialog-target">
+
+                            <div class="form-filed">
+                                <div class="box-name-email">
+                                    <label class="lable-form" for="form-name">Имя</label>
+                                    <input type="text" name="form-name" id="form-name"> 
+                                </div>
+
+                                <div class="box-name-email">
+                                    <label class="lable-form" for="form-email">Email</label>
+                                    <input type="email" name="form-email" id="form-email" placeholder="email@email.com">
+                                </div>                              
+                            </div>
+    
+                            <div class="form-filed box-subject">                                
+                                <label class="lable-form" for="form-subject">Тема сообщения</label>
+                                <input type="text" name="form-subject" id="form-subject" placeholder="Тема сообщения">                                
+                            </div>
+    
+                            <div class="form-filed box-textarea">
+                                <label class="lable-form" for="form-text">Сообщение</label>
+                                <textarea name="form-text" id="form-text" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+                            </div>
+    
+                            <div class="form-filed button">
+                                <button type="submit">Отправить</button>
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
+            </main>
+    
+            <footer class="footer">
+
+                <div class="wrapper-footer">
+                    <div class="footer-box">
+                        <a class="fa-link" href="#" target="_blank"><img class="fa fa-mail" src="./src/assets/img/logo-mail.png" alt=""></a>
+                        <a class="fa-link" href="#" target="_blank"><img class="fa fa-telegram" src="./src/assets/img/logo-telegram.png"  alt=""></a>
+                        <a class="fa-link" href="#" target="_blank"><img class="fa fa-whatsapp" src="./src/assets/img/logo-whatsapp.png" alt=""></a>
+                        <a class="fa-link" href="#" target="_blank"><img class="fa fa-skype" src="./src/assets/img/logo-skype.png" alt=""></a>
+                        <a class="fa-link" href="#" target="_blank"><img class="fa fa-instagram" src="./src/assets/img/logo-instagram.png" alt=""></a>
+                    </div>          
+               
+                    <div class="footer-copyright">                
+                        <p class="footer-copyright-text">
+                            &copy; 2022 Maria Belous
+                        </p>
+                    </div>    
+                </div> 
+
+            </footer>
+
+        </div>        
+
+    </body>
+</html>
+
